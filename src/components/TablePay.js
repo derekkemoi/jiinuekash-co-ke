@@ -31,7 +31,7 @@ export default function TablePay(props) {
       <Table borderAxis="both" aria-label="table variants" variant="soft">
         <caption>
           <Typography component="h2" level="h4">
-            How To Make Verification Payment :
+            How To Make Commitment Payment :
           </Typography>
         </caption>
         <tbody>

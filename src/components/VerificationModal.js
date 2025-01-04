@@ -38,7 +38,7 @@ export default function VerificationModal(props) {
         fullWidth
         onClick={() => setOpen(true)}
       >
-        CONFIRM VERIFICATION
+        CONFIRM COMMITMENT
       </Button>
       <Modal open={open} onClose={() => setOpen(false)}>
         <ModalDialog>
@@ -96,7 +96,7 @@ export default function VerificationModal(props) {
                 )}
               </FormControl>
               <Button style={{ backgroundColor: "#00CC71" }} type="submit">
-                VERIFY
+                CONFIRM
               </Button>
             </Stack>
           </form>
